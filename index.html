@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tanmay- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style> 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        background-color: rgb(23, 18, 44);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav{
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(22, 16, 93);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(126, 126, 227);
+    }
+    .left {
+        font-size: 1.5rem;
+    }
+    .FirstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0;
+    }
+    .FirstSection > div{
+        width: 30%;
+    }
+    .LeftSection{
+        font-size: 2rem; 
+    }
+    .LeftSection .button{
+        padding: 50px 0;
+    }
+    .LeftSection .buttons{
+        padding: 12px;
+        background-color: rgb(29, 18, 100);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .RightSection img{
+        width: 100%;
+    }
+    .purple{
+        color: rgb(145, 50, 233);
+    }
+    #element {
+        color: rgb(145, 50, 233);
+    }
+    .SecondSection{
+        max-width: 80vw;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 0;
+        height: 80vh;
+    }
+    main hr{
+        background-color: rgb(186, 186, 252);
+        border: 0;
+        height: 1px;
+        margin: 40px 80px;
+    }
+    .secsect{
+        color: gray;
+    }
+    footer{
+        background-color: purple;
+    }
+    .footer{
+        display: flex;
+        padding: 25px 100px;  
+        justify-content: space-evenly;  
+    }
+    .footer ul{
+        list-style-type: none;
+    }
+    .footer > div{
+        width: 200px;
+    }
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+    </style>
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="Left">Tanmay's Portfolio </div>
+            <div class="Right">
+                <ul>
+                    <a href="About.html"> <li>About</a></li>                 
+                    <a href="Projects.html"> <li>Projects</a></li>
+                    <a href="experience.html"> <li>Experience</a></li>
+                    <a href="contact.html"> <li>Contact</a></li>
+                </ul> 
+            </div>
+        </nav>
+     </header>
+     <main>
+        <section class="FirstSection">
+            <div class="LeftSection">
+                Hi, My Name is <span class="purple"> Tanmay</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="https://drive.google.com/file/d/1KyBhczzxxSNaL05fPKnhjh5joOp5UdmM/view?usp=sharing"><button class="buttons">Download Resume</button></a>
+                    <a href="https://www.linkedin.com/in/tanmay-gangurde-897308193/"><button class="buttons">LinkedIn</button></a>     
+                </div>
+            </div>
+            <div class="RightSection">
+                <img src="dev.png" alt="Developer image">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="secsect">How much knowledge do I have?</span>
+            <h1>Skills</h1>
+            <br>
+            <br>
+            <div class="Leftsplit">
+                    <center>
+                        <table>
+                <tr>
+                    <td>C lang</td>
+                    <td>&nbsp &nbsp &nbsp &nbsp ⭐⭐⭐</td>
+                    <td></td>
+                    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp HTML</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <Td>C++</Td>
+                    <td>&nbsp &nbsp &nbsp &nbsp ⭐⭐⭐⭐</td>
+                    <td></td>
+                    <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp CSS</td>
+                    <td>⭐⭐⭐</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Python</td>
+                    <td>&nbsp &nbsp &nbsp &nbsp ⭐⭐⭐⭐</td>
+                    <td></td>
+                    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp JavaScript</td>
+                    <td>⭐</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Java</td>
+                    <td>&nbsp &nbsp &nbsp &nbsp ⭐⭐⭐</td>
+                    <td></td>
+                    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SQL</td> 
+                    <td>⭐⭐⭐</td>
+                    <td></td>
+                  </tr>
+                </table>
+                </center>
+            </div>
+        </section>
+     </main>
+     <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Tanmay's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-first"></div>
+            <div class="footer-first"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.tanmaysportfolio.com | All rights reserved
+        </div>
+     </footer>
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', ' Data Analyst.', 'Coder.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

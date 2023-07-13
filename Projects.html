@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style> 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        background-color: rgb(23, 18, 44);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .projects {
+        background-color: var(--bg-color);
+        padding: 32px 0;
+        margin-top: 2rem;
+    }
+    .project-pic {
+        width: 65%;
+        height: 60%;
+    }
+    .projects-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects-title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .project-container {
+        text-align: center;
+        width: 21.875rem;
+        padding: 1rem;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Projects</h1>
+        </center>
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Some of my Recent Projects</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img
+                        src="webscrapping.png"
+                        alt="Web-scrapping"
+                        loading="lazy"
+                        class="project-pic"
+                        />
+                        <h3 class="project-title">Web-scrapping (10/2021)</h3>
+                        <p class="project-details">
+                        In this project, Oneplus website is get scrapped to obtain data from that websites. The unstructured data is converted into structured data. Through the oneplus website, I have scrapped the important information into structured format. Web Scrapers can extract all the data on particular sites or the specific data that a user wants. I extracted important information like product categories,product price,  discount price.  
+                        </p>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="car.png"
+                        alt="Used-car"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Used Car Price Prediction (03 - 05/2022)</h3>
+                    <p class="project-details">
+                        The value of a car drops right from the moment it is bought and the depreciation continues with each passing year. So to buy or sell used car, there should be any prediction platform who determine legit price on basis of some categories like Car company, car model, purchase year, fuel type ans kms driven. So, I have created such platform who can show the exact and legit price by providing output to those categories.  
+                    </p>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="crop.jpg"
+                        alt="Crop-prediction"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Crop Prection and Disease detection in cotton(07/2022 - 05/2023)</h3>
+                    <p class="project-details">
+                        Crop prediction is done on the basis of environment factors and soil contents, nutrients and rainfall. Cotton disease images were collected from the different whether conditions. Those images contains some leaf images and some plant images. So, model predict the output in some catgories like diseased leaf, diseasead plant and fresh leaf , fresh plant. This model also gives output about causes and symptoms of that disease.
+                    </p>
+                </div>
+            </div>
+          </section>
+
+        </section>
+    </header>
+</body>
+</html>
